@@ -373,11 +373,12 @@ ul > li
 
 .jidelnicekbackgrounda
 {
+	width: 100%;
+	height: 100%;
 	position: absolute;
 	z-index: -50;
 	display: block;
 	top: 0px;
-	left: 40px;
 	border: 5px solid #777;
 	filter: blur(8px);
 	-webkit-filter: blur(8px);
@@ -386,11 +387,12 @@ ul > li
 }
 .jidelnicekbackground2a
 {
+	width: 100%;
+	height: 100%;
 	position: absolute;
 	z-index: -50;
 	display: block;
 	top: 1200px;
-	left: 40px;
 	border: 5px solid #777;
 	filter: blur(8px);
 	-webkit-filter: blur(8px);
@@ -399,11 +401,12 @@ ul > li
 }
 .jidelnicekbackground3a
 {
+	width: 100%;
+	height: 100%;
 	position: absolute;
 	z-index: -50;
 	display: block;
 	top: 2400px;
-	left: 40px;
 	border: 5px solid #777;
 	filter: blur(8px);
 	-webkit-filter: blur(8px);
