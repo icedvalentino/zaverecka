@@ -18,20 +18,6 @@ ul
 	color: white;
 	z-index: 3;
 }
-.thumbnail
-{
-	position: absolute;
-	left: 500px;
-	top: 300px;
-	z-index: 50;
-}
-.thumbnail2
-{
-	position: absolute;
-	left: -10px;
-	top: 200px;
-	z-index: 50;
-}
 
 .class1
 {
@@ -51,6 +37,7 @@ ul > li
 	background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,0,1));
 	padding: 20px;
 	border: 1px solid #777;
+	width: 10%
 	
 }
 .aktivni_polozka:hover
@@ -62,6 +49,7 @@ ul > li
 	background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,0,1));
 	padding: 20px;
 	border: 1px solid #777;
+	width: 10%;
 }
 .neaktivni_polozka:hover
 {
@@ -72,6 +60,7 @@ ul > li
 	background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,0,1));
 	padding: 20px;
 	border: 1px solid #777;
+	width: 10%;
 }
 .neaktivni2_polozka:hover
 {
@@ -82,6 +71,7 @@ ul > li
 	background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,0,1));
 	padding: 20px;
 	border: 1px solid #777;
+	width: 10%;
 }
 .neaktivni3_polozka:hover
 {
@@ -92,6 +82,7 @@ ul > li
 	background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,0,1));
 	padding: 20px;
 	border: 1px solid #777;
+	width: 10%;
 	
 }
 .neaktivni4_polozka:hover
@@ -103,120 +94,38 @@ ul > li
 	background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,0,1));
 	padding: 20px;
 	border: 1px solid #777;
+	width: 10%;
 	
 }
 .neaktivni5_polozka:hover
 {
 	background-color: #777;
 }
-
-#rectanglesoykalogo
-{
-	position: absolute;
-	width: 280px;
-    height: 960px;
-	left: 25px;
-	top: 230px;
-    background: black;
-	z-index: 5;
-	border: 1px solid #777;
-}
-#rectanglesoykalogo2
-{
-	position: relative;
-	width: 320px;
-    height: 1000px;
-	top: 145px;
-    background:linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1));
-	z-index: -5;
-	border: 1px solid #777;
-}
-#rectangleclanek1
-{
-	position: absolute;
-	width: 800px;
-	height: 440px;
-	top: 150px;
-	left: 500px;
-	background:linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1));
-	z-index: 60;
-	border: 1px solid #777;
-}
 #rectangleclanek2
 {
 	position: absolute;
-	width: 760px;
-	height: 400px;
-	top: 170px;
-	left: 520px;
+	width: 70%;
+	height: 70%;
+	left: 10%;
+	top: 10%;
 	background-color: black;
+	max-height: 600px;
+	
 	z-index: 60;
 	border: 1px solid #777;
+	padding: 30px;
 }
-.textuvod1
+.onas
 {
-	font-family: Fantasy;
-	position: relative;
-	z-index: 70;
+	width: 100%;
+	height: 100%;
 	color: white;
-	top: -700px;
-	left: 560px;
-}
-.textuvod2
-{
-	font-family: Fantasy;
 	position: relative;
-	z-index: 70;
-	color: white;
-	top: -690px;
-	left: 620px;
-}
-.textuvod3
-{
-	font-family: Fantasy;
-	position: relative;
-	z-index: 70;
-	color: white;
-	top: -680px;
-	left: 555px;
-}
-.textuvod4
-{
-	font-family: Fantasy;
-	position: relative;
-	z-index: 70;
-	color: white;
-	top: -670px;
-	left: 610px;
-}
-.textuvod5
-{
-	font-family: Fantasy;
-	position: relative;
-	z-index: 70;
-	color: white;
-	top: -660px;
-	left: 535px;
-}
-.textuvod6
-{
-	font-family: Fantasy;
-	position: relative;
-	z-index: 70;
-	color: white;
-	top: -650px;
-	left: 650px;
-}
-.nadpis1
-{
-	-webkit-text-fill-color: transparent;
-	-webkit-text-stroke: 2px red;
-	font-size: 80px;
-	position: relative;
-	z-index: 70;
-	color: red;
-	top: -1100px;
-	left: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width:100%;
+	max-height:100%;
+	top: 40px;
 }
 #fotogalerieobdelnikuvod1
 {
@@ -340,8 +249,8 @@ ul > li
 	position: relative;
 	border: 5px solid #000;
 	transition: 0.5s;
-	margin-left: auto;
-	margin-right: auto;
+	margin-right: 10%;
+	margin-left: 10%;
 
 }
 .jidelnicek1:hover
@@ -360,8 +269,8 @@ ul > li
 	position: relative;
 	border: 5px solid #000;
 	transition: 0.5s;
-	margin-left: auto;
-	margin-right: auto;
+	margin-right: 10%;
+	margin-left: 10%;
 }
 .jidelnicek2:hover
 {
@@ -374,25 +283,21 @@ ul > li
 .jidelnicekbackgrounda
 {
 	width: 100%;
-	height: 100%;
+	height: 1000px;
 	position: absolute;
 	z-index: -50;
 	display: block;
-	top: 0px;
 	border: 5px solid #777;
 	filter: blur(8px);
 	-webkit-filter: blur(8px);
-	margin-left: auto;
-	margin-right: auto;
 }
 .jidelnicekbackground2a
 {
 	width: 100%;
-	height: 100%;
+	height: 1000px;
 	position: absolute;
 	z-index: -50;
 	display: block;
-	top: 1200px;
 	border: 5px solid #777;
 	filter: blur(8px);
 	-webkit-filter: blur(8px);
@@ -402,11 +307,10 @@ ul > li
 .jidelnicekbackground3a
 {
 	width: 100%;
-	height: 100%;
+	height: 1000px;
 	position: absolute;
 	z-index: -50;
 	display: block;
-	top: 2400px;
 	border: 5px solid #777;
 	filter: blur(8px);
 	-webkit-filter: blur(8px);
@@ -580,3 +484,4 @@ ul > li
 	top: -40px;
 	position: relative;
 }
+
